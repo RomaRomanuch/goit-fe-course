@@ -1,7 +1,99 @@
-li {
-    display:inline;
+.container {
+    width: 1300px;
+    margin: 0px auto;
+}
+
+
+.travel {
+    margin-right: 314px;
+}
+.lifestyle {
+    margin-left: 313px;
+}
+
+.photodiary {
+    margin-left: 122px;
+}
+
+.music {
+    margin-left: 103px;
+    margin-right: 95px;
+}
+
+.nav {
+    display: inline-block;
+    margin-top: 77px;
+    margin-bottom: 104px;
+}
+
+.container-2 {
+    width: 901px ;
+    margin: 0px auto;
+}
+
+.a1 {
+    width: calc(50%-61px);
+ 
+    display: inline-block;
+}
+
+.first {
+    box-sizing: content-box;
+    width: 420px;
+    margin-right: 57px;
+}
+
+.second {
+    box-sizing: content-box;
+    width: 420px;
+}
+
+.a2 {
+    width: calc(50%-61px);;
+ 
+    display: inline-block;
+
+}
+.third {
+    box-sizing: content-box;
+    width: 420px;
+    margin-right: 57px;
+
+}
+
+.fourth {
+    box-sizing: content-box;
+    width: 420px;
+
+}
+.a3 {
+    width: calc(50%-61px);;
+ 
+    display: inline-block;
+
+}
+
+.fifth {
+    box-sizing: content-box;
+    width: 420px;
+    margin-right: 57px;
     
 }
-ul {
-    margin-top: 77px ;
+
+.sixth {
+    box-sizing: content-box;
+    width: 420px;
 }
+
+
+
+/* .lifestyle {
+    font-size: 14px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-align: center;
+ 
+  } */
+  
