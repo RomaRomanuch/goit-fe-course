@@ -1,3 +1,4 @@
+
 .container {
     width: 1300px;
     margin: 0px auto;
@@ -7,8 +8,10 @@
 .travel {
     margin-right: 314px;
 }
+
 .lifestyle {
     margin-left: 313px;
+   
 }
 
 .photodiary {
@@ -24,16 +27,23 @@
     display: inline-block;
     margin-top: 77px;
     margin-bottom: 104px;
+    font-size: 14px;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    color: rgb(98, 98, 98);
+    
+    
+    
 }
 
 .container-2 {
-    width: 901px ;
+    width: 901px;
     margin: 0px auto;
 }
 
 .a1 {
     width: calc(50%-61px);
- 
+
     display: inline-block;
 }
 
@@ -49,11 +59,13 @@
 }
 
 .a2 {
-    width: calc(50%-61px);;
- 
+    width: calc(50%-61px);
+    ;
+
     display: inline-block;
 
 }
+
 .third {
     box-sizing: content-box;
     width: 420px;
@@ -66,9 +78,11 @@
     width: 420px;
 
 }
+
 .a3 {
-    width: calc(50%-61px);;
- 
+    width: calc(50%-61px);
+
+
     display: inline-block;
 
 }
@@ -77,7 +91,7 @@
     box-sizing: content-box;
     width: 420px;
     margin-right: 57px;
-    
+
 }
 
 .sixth {
@@ -85,15 +99,64 @@
     width: 420px;
 }
 
-
-
-/* .lifestyle {
+.p-under-picture {
     font-size: 14px;
-    font-family: "PlayfairDisplay";
-    color: rgb(98, 98, 98);
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
     text-transform: uppercase;
-    line-height: 1.714;
-    text-align: center;
- 
+
+}
+
+.h2 {
+    font-size: 30px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+
+}
+
+.text-content {
+    font-size: 14px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+
+}
+
+button {
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    width: 162px;
+    height: 58px;
+    margin-left: 373px;
+    margin-top: 54px;
+    margin-bottom: 70px;
+
+}
+
+.level-2 {
+    margin-top: 120px;
+}
+.level-3 {
+    margin-top: 120px;
+}
+
+.menu {
+    margin-left: 50px;
+}
+
+
+
+/* .box {
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    position: absolute;
+    left: 507px;
+    top: 1949px;
+    width: 162px;
+    height: 58px;
+    z-index: 3;
   } */
+  
+
   
