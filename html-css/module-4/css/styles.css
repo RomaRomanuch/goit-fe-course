@@ -1,1 +1,66 @@
-1
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+
+}
+
+/* HEADER */
+
+.logo {
+    margin-top: 38px;
+    float: left;
+
+}
+
+nav {
+    float: right;
+    margin-top: 43px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 34px;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0f0101;
+    
+}
+
+
+.Home__________About_Us___________page_________s {
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(26, 188, 156);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.786;
+    text-align: right;
+    position: absolute;
+    left: 820.765px;
+    top: 48.902px;
+    width: 467px;
+    height: 10px;
+    z-index: 118;
+  }
+  
