@@ -1,6 +1,15 @@
 body {
     padding: 0;
     margin: 0;
+    /* width: 1647px; */
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both;
 }
 
 div {
@@ -43,24 +52,56 @@ nav {
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
-    color: #0f0101;
-    
+    color: #0f0101;   
 }
 
+.menu li:last-child {
+    margin-right: 0px;
+}
 
-.Home__________About_Us___________page_________s {
-    font-size: 14px;
-    font-family: "OpenSans";
-    color: rgb(26, 188, 156);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 0.786;
-    text-align: right;
-    position: absolute;
-    left: 820.765px;
-    top: 48.902px;
-    width: 467px;
-    height: 10px;
-    z-index: 118;
+/* TO SECTIONS */
+
+
+
+  /* FIRST SECTION */
+  .items_1 {
+      display: inline-block;
+      width: 255px;
+      height: 322px;
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 30px;
+      position: relative;
   }
-  
+
+ 
+
+  h2 {
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+.first-section {
+    margin-top: 111px;
+}
+
+.items_1 p {
+    display: inline;
+    margin: 0;
+}
+
+.items_1:nth-child(5) {
+    margin-right: 0px;
+}
+
+.items_1:nth-child(9) {
+    margin-right: 0px;
+}
+
+.items_1 p {
+    position: absolute;
+    left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
