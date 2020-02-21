@@ -52,7 +52,8 @@ nav {
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
-    color: #0f0101;   
+    color: #0f0101;
+    font-family: "Open Sans";     
 }
 
 .menu li:last-child {
@@ -63,26 +64,45 @@ nav {
 
 
 
-  /* FIRST SECTION */
-  .items_1 {
-      display: inline-block;
-      width: 255px;
-      height: 322px;
-      float: left;
-      margin-right: 30px;
-      margin-bottom: 30px;
-      position: relative;
-  }
+/* FIRST SECTION */
+.items_1 {
+    display: inline-block;
+    width: 255px;
+    height: 322px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
 
- 
 
-  h2 {
-      text-transform: uppercase;
-      text-align: center;
-    }
 
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto";
+    color: rgb(81, 81, 81);
+    line-height: 0.667;
+    font-weight: bold;
+}
+
+
+  
 .first-section {
     margin-top: 111px;
+}
+
+.first-section:after {
+    display: block;
+    background-color: #1abc9c;
+    content: ""; 
+    width: 164px;
+    height: 7px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 58px;
+    margin-bottom: 60px;
 }
 
 .items_1 p {
@@ -98,10 +118,31 @@ nav {
     margin-right: 0px;
 }
 
+.items_1:nth-child(n+6) {
+    margin-bottom: 0px;
+}
+
 .items_1 p {
     position: absolute;
     left: 0;
-  bottom: 0;
-  width: 100%;
-
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.778;
+    text-align: left;
+    background: linear-gradient(to right, #323232 78%, #8c8c8c 22%);
+    text-align: center;
 }
+
+span {
+    float: right;
+}
+
+/* SECOND SECTION */
+
+.second-section {
+    margin-top: 105px;
+} 
