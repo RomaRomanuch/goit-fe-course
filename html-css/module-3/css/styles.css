@@ -1,28 +1,43 @@
 
-.container {
+/* .container {
     width: 1300px;
     margin: 0px auto;
+} */
+.container-2 {
+    width: 901px;
+    margin: 0px auto;
+}
+.menu p {
+    font-size: 14px;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    color: rgb(98, 98, 98);
+    display: inline-block;
+    line-height: 0px;
+
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 104px;
+    margin-top: 100px;
+
+}
+
+.menu p:nth-of-type(2) {
+    margin: 0px 123px;
+}
+
+.menu p:nth-of-type(3) {
+    margin-right: 96px;
+
 }
 
 
-.travel {
-    margin-right: 314px;
-}
 
-.lifestyle {
-    margin-left: 313px;
-   
-}
 
-.photodiary {
-    margin-left: 122px;
-}
 
-.music {
-    margin-left: 103px;
-    margin-right: 95px;
-}
-
+/* 
 .nav {
     display: inline-block;
     margin-top: 77px;
@@ -30,16 +45,10 @@
     font-size: 14px;
     font-family: "Playfair Display";
     text-transform: uppercase;
-    color: rgb(98, 98, 98);
-    
-    
-    
-}
+    color: rgb(98, 98, 98);    
+} */
 
-.container-2 {
-    width: 901px;
-    margin: 0px auto;
-}
+
 
 .a1 {
     width: calc(50%-61px);
@@ -121,15 +130,6 @@
 
 }
 
-button {
-    border-width: 1px;
-    border-color: rgb(98, 98, 98);
-    border-style: solid;
-    width: 162px;
-    height: 58px;
-    margin-left: 373px;
-    margin-top: 54px;
-    margin-bottom: 70px;
 
 }
 
@@ -140,14 +140,23 @@ button {
     margin-top: 120px;
 }
 
-.menu {
-    margin-left: 50px;
-}
 
-.button {
+
+
+
+button {
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 54px;
+    margin-bottom: 70px;
     font-size: 20px;
     font-family: "Playfair Display";
     color: rgb(98, 98, 98);
+    padding: 22px 35px;
+    display: block;
+    
 
 }
-
