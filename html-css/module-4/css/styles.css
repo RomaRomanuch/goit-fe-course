@@ -139,6 +139,14 @@ h2 {
 
 span {
     float: right;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.span {
+    display:inline-block;
+    float: left;
 }
 
 /* SECOND SECTION */
@@ -204,8 +212,19 @@ button {
     text-align: center;
 }
 
-  
+  /* HOWER */
+.items_1:hover p {
+    background: #1abc9c;
 
+}
+
+.items_1:hover span:nth-of-type(2) {
+    background: #7fd9c7;
+
+}
+    
+
+  
 
 
   
