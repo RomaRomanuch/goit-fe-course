@@ -13,8 +13,6 @@
     text-transform: uppercase;
     color: rgb(98, 98, 98);
     display: inline-block;
-    line-height: 0px;
-
 }
 
 .menu {
@@ -131,7 +129,7 @@
 }
 
 
-}
+
 
 .level-2 {
     margin-top: 120px;
