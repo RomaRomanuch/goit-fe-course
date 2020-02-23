@@ -111,6 +111,7 @@
     font-family: "Ubuntu";
     color: rgb(180, 173, 158);
     text-transform: uppercase;
+    margin-bottom: 0px;
 
 }
 
@@ -125,11 +126,16 @@
     font-size: 14px;
     font-family: "Playfair Display";
     color: rgb(98, 98, 98);
+    margin-bottom: 0px;
+    margin-top: 0px;
 
 }
 
 
+.level-1 {
+    margin-bottom: 120px;
 
+}
 
 .level-2 {
     margin-top: 120px;
