@@ -25,14 +25,14 @@ div {
 /* HEADER */
 
 .logo {
-    margin-top: 38px;
+    /* margin-top: 38px; */
     float: left;
 
 }
 
 nav {
     float: right;
-    margin-top: 43px;
+    /* margin-top: 43px; */
 }
 
 .menu {
@@ -53,11 +53,19 @@ nav {
     font-size: 14px;
     font-weight: bold;
     color: #0f0101;
-    font-family: "Open Sans";     
+    font-family: "Open Sans";
 }
 
 .menu li:last-child {
     margin-right: 0px;
+}
+
+.menu li a:hover {
+    color: #1abc9c;
+}
+
+.heading {
+    margin-top: 43px;
 }
 
 /* TO SECTIONS */
@@ -88,7 +96,7 @@ h2 {
 }
 
 
-  
+
 .first-section {
     margin-top: 111px;
 }
@@ -96,9 +104,9 @@ h2 {
 .first-section:after {
     display: block;
     background-color: #1abc9c;
-    content: ""; 
+    content: "";
     width: 164px;
-    height: 7px; 
+    height: 7px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 34px;
@@ -138,7 +146,7 @@ h2 {
     display: inline-block;
 }
 
-.items_1 > div {
+.items_1>div {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -147,7 +155,7 @@ h2 {
 }
 
 .span {
-    display:inline;
+    display: inline;
     float: left;
     padding-left: 12px;
 }
@@ -158,11 +166,12 @@ h2 {
     padding-right: 15px;
     padding-left: 10px;
 }
+
 /* SECOND SECTION */
 
 .second-section {
     margin-top: 105px;
-} 
+}
 
 .items_2 {
     width: 350px;
@@ -184,12 +193,12 @@ h2 {
     margin-bottom: 80px;
 }
 
-.items_2 > img {
+.items_2>img {
     margin-bottom: 16px;
 }
 
 
-.items_2 > p:first-of-type {
+.items_2>p:first-of-type {
     margin-top: -4px;
     font-size: 18px;
     font-family: "Open Sans";
@@ -197,7 +206,7 @@ h2 {
     line-height: 1.444;
 }
 
-.items_2 > p:first-of-type::after{
+.items_2>p:first-of-type::after {
     content: "";
     display: block;
     background-color: rgb(78, 198, 171);
@@ -206,18 +215,18 @@ h2 {
     margin-top: 15px;
 }
 
-.items_2 > p:nth-of-type(2) {
+.items_2>p:nth-of-type(2) {
     font-size: 14px;
     font-family: "Open Sans";
     color: rgb(85, 82, 82);
     line-height: 1.857;
-    
+
 }
 
 button {
     border-radius: 3px;
     background-color: rgb(78, 198, 171);
-    padding: 13px  40px;
+    padding: 13px 40px;
     font-size: 16px;
     font-family: "Open Sans";
     color: rgb(255, 255, 255);
@@ -226,8 +235,8 @@ button {
     border: 0px;
 }
 
-  /* HOWER */
-.items_1:hover > div {
+/* HOWER */
+.items_1:hover>div {
     background: #1abc9c;
 
 }
@@ -236,9 +245,3 @@ button {
     background: #7fd9c7;
 
 }
-    
-
-  
-
-
-  
