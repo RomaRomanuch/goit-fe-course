@@ -157,9 +157,10 @@ span {
 
 .items_2 {
     width: 350px;
-    height: 494px;
+    /* height: 494px; */
     float: left;
     margin-bottom: 100px;
+    box-sizing: content-box;
 }
 
 .items_2:nth-child(-n+3) {
@@ -174,9 +175,13 @@ span {
     margin-bottom: 80px;
 }
 
+.items_2 > img {
+    margin-bottom: 16px;
+}
 
 
 .items_2 > p:first-of-type {
+    margin-top: -4px;
     font-size: 18px;
     font-family: "Open Sans";
     color: rgb(85, 82, 82);
@@ -201,10 +206,9 @@ span {
 }
 
 button {
-    border-radius: 3px;
+    border-radius: 0px;
     background-color: rgb(78, 198, 171);
-    width: 160px;
-    height: 51px;
+    padding: 13px  40px;
     font-size: 16px;
     font-family: "Open Sans";
     color: rgb(255, 255, 255);
