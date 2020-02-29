@@ -95,7 +95,8 @@ _________________________________ */
 /* ========SECTION TWO===========
 _____________________________ */
 .items {
-    background-color: #e9f0fd ;
+    background-color: #e9f0fd;
+    padding-bottom: 100px;
 }
 .bottom_title {
     text-align: center;
@@ -119,3 +120,135 @@ _____________________________ */
     display: flex;
     justify-content: space-between;
 }
+
+
+
+.card_item {
+    position: relative;
+    width: 255px;
+    height: 322px;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.name_price {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #323232 80%, #8c8c8c 20%);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.price {
+    padding: 10px 9px 10px 0px;
+    font-size: 18px;
+}
+
+.name {
+    padding: 10px 0px 10px 15px;
+    font-size: 18px;
+}
+
+.hover_effect {
+    position: absolute;
+    width: 235px;
+    height: 261px;
+    left: 10px;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    justify-content: center;
+    transition: opacity .3s linear;
+}
+
+.card_item:hover .hover_effect {
+    opacity: 1;
+}
+.card_item:hover .name_price {
+    background: linear-gradient(to right, #1abc9c 80%, #7fd9c7 20%);
+}
+.row_1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+.row_1 img:nth-of-type(1) {
+    border: 1px solid;
+    padding: 12px;
+    border-color: #ffffff;
+    margin-right: 6px;
+}
+.row_1 img:nth-of-type(2) {
+    border: 1px solid;
+    padding: 12px;
+    border-color: #ffffff;
+    margin-right: 6px;
+}
+.row_1 img:nth-of-type(3) {
+    border: 1px solid;
+    padding: 12px;
+    border-color: #ffffff;
+}
+
+.row_1 img:nth-of-type(1):hover {
+    background-color: #1abc9c;
+}
+.row_1 img:nth-of-type(2):hover {
+    background-color: #1abc9c;
+}
+.row_1 img:nth-of-type(3):hover {
+    background-color: #1abc9c;
+}
+
+
+.row_2 {
+    display: flex;
+    border: 1px solid #ffffff;
+    width: 166px;
+    height: 50px;
+    color: #ffffff;
+    justify-content: space-evenly;
+    background-color: #323232;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* =====FOOTER==========
+____________________
+   */
+
+.footer {
+    background-color: #323232;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.describe_footer {
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: #fff;
+
+}
+span {
+    color: #3f9081;
+}
+
+  
