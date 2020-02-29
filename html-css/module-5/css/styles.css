@@ -61,10 +61,15 @@ _________________________________ */
     background: url("/img/slider_easy.jpg") center no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;  
 }
+.all_slider_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
 .slider_content {
     font-family: "Roboto";
     color: #ffffff;
@@ -80,3 +85,9 @@ _________________________________ */
     font-size: 24px;
     font-weight: normal;
 }
+
+.slider_button {
+    padding: 30px 40px;
+    background-color: rgba(78, 198, 171, 0.651) ;
+}
+  
