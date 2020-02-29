@@ -23,7 +23,7 @@ h1, h2, h3, p {
 /* =============HEADER==============
 _________________________________ */
 .header {
-    padding: 40px 0;
+    padding: 40px 0 33px;
 }
 
 .header_inner {
@@ -96,7 +96,7 @@ _________________________________ */
 _____________________________ */
 .items {
     background-color: #e9f0fd;
-    padding-bottom: 100px;
+    padding: 100px 0px;
 }
 .bottom_title {
     text-align: center;
@@ -104,6 +104,7 @@ _____________________________ */
     font-family: "Roboto";
     color: rgb(81, 81, 81);
     text-transform: uppercase;
+    padding-bottom: 80px;
 }
 
 .bottom_title::after {
