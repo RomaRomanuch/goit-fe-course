@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+
+/* =============HEADER==============
+_________________________________ */
+.header {
+    padding: 40px 0;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+}
+.nav_link {
+    text-decoration: none;
+    color: #0f0101;
+    margin-left: 35px;
+}
+.nav_link:first-child {
+    margin: 0;
+}
+
+.nav_link:hover {
+    color: #29c0a3;
+}
+
+
+/* ====SLIDER=======
+_________________________________ */
+
+.slider {
+    height: 600px;
+    background: url("/img/slider_easy.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slider_content {
+    font-family: "Roboto";
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.slider_title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.discrable_title {
+    font-size: 24px;
+    font-weight: normal;
+}
