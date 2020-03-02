@@ -19,7 +19,10 @@ div {
 .container {
     width: 1110px;
     margin: 0 auto;
+}
 
+h1, h2, h3 {
+    margin: 0;
 }
 
 /* HEADER */
@@ -98,7 +101,9 @@ h2 {
 
 
 .first-section {
-    margin-top: 111px;
+    
+    position: relative;
+    margin-bottom: 130px ;
 }
 
 .first-section:after {
@@ -109,8 +114,10 @@ h2 {
     height: 7px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 34px;
-    margin-bottom: 60px;
+    position: absolute;
+    left: 50%;
+    bottom: -32px;
+    transform: translateX(-50%);
 }
 
 .items_1 p {
@@ -166,11 +173,17 @@ h2 {
     padding-right: 15px;
     padding-left: 10px;
 }
+.section_one {
+    margin-top: 115px;
+}
 
 /* SECOND SECTION */
 
 .second-section {
-    margin-top: 105px;
+}
+
+.section_two {
+    margin-top: 110px;
 }
 
 .items_2 {
@@ -190,7 +203,8 @@ h2 {
 }
 
 .second-section::after {
-    margin-bottom: 80px;
+    
+    position: absolute;
 }
 
 .items_2>img {
