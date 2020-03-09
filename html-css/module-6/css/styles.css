@@ -24,6 +24,7 @@ ul {margin: 0; padding: 0;}
 __________________ */
 .header {
     padding-top: 50px;
+    margin-bottom: 115px;
 }
 .header_inner {
     display: flex;
@@ -81,15 +82,75 @@ __________________ */
     flex-wrap: wrap;
     padding-left: 10px;
     justify-content: space-between;
+    height: 237px;
+    align-content: space-between;
+    margin-bottom: 92px;
 }
 .service_item {
     flex-basis: 380px;
     display: flex;
 }
+.service_text {
+    display: flex;
+    flex-direction: column;
+}
+.service_text>p:first-child {
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.service_text>p:last-child {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #999999;
+}
 
 .icon > img {
     padding: 0px 30px 0px 20px;
+   
 }
+
+.question_title {
+  text-align: center;
+  padding-bottom: 24px;
+  font-size: 24px;
+  font-family: "Kaushan Script";
+  color: #333333;
+  font-weight: normal;
+}
+
+.outher_title {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333333;
+    padding-bottom: 43px;
+    position: relative;
+    margin-bottom: 65px;
+}
+
+.outher_title:after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color:  #f38181;
+    bottom: 0px;
+}
+
+  
+  
+
+
+  
 
 /* ====SECOND SECTION====== */
 
@@ -98,6 +159,27 @@ __________________ */
     display: flex;
     justify-content: space-between;
 }
+
+.team-description {
+
+}
+
+.mini_container {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #999999;
+    margin-bottom: 100px;
+}
+
+.section_2_title {
+    margin-bottom: 45px;
+}
+  
+
 
 /* ====FOOTER===== */
 
