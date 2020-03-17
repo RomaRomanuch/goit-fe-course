@@ -182,7 +182,7 @@ __________________ */
 .member {
     position: relative;
     margin-bottom: 80px;
-   
+    
 }
 
 .blue_bottom {
@@ -195,7 +195,7 @@ __________________ */
 .team_img {
     position: absolute;
     top: 0px;
-    
+    transition: all .2s linear;
 }
 .team_img:after {
     content: "";
@@ -205,8 +205,9 @@ __________________ */
     display: block;
     background: linear-gradient(90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
     z-index: 2;
-    opacity: 0.9;
+    opacity: 0;
     top: 0px;
+    transition: all .2s linear;
 }
 
 .hover_effect{
@@ -215,8 +216,10 @@ __________________ */
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 3;
+    transform: translate(-50%, -125%);
+    z-index: 5;
+    opacity: 0;
+    transition: all .2s linear;
 }
 
 .social_icon{
@@ -225,6 +228,8 @@ __________________ */
     height: 55px;
     position: relative;
     margin-right: 1px;
+    transition: all .2s linear;
+
 }
 
 .social_icon > img {
@@ -314,4 +319,17 @@ input[type="email"] {
 .social_icon:hover {
     background-color: #95e1d3;
 }
+
+.member:hover .hover_effect {
+    opacity: 1;
+}
+
+.member:hover .team_img:after{
+    opacity: 0.9;
+}
+
+.member:hover .social_icon{
+    transform: translate(-10px, -10px);
+}
+
 
