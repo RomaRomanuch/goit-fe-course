@@ -21,7 +21,17 @@ ul {
     margin: 0; padding: 0;
 }
 
+@font-face {
+    font-family: Montserat;
+    src: url(../fonts/montserrat-v14-latin_cyrillic-300.woff) format("woff");
+    src: url(../fonts/montserrat-v14-latin_cyrillic-300.woff2) format("woff2");
+}
 
+@font-face {
+    font-family: Source;
+    src: url(../fonts/source-serif-pro-v7-latin-regular.woff) format("woff");
+    src: url(../fonts/source-serif-pro-v7-latin-regular.woff2) format("woff2");
+}
 /* ====HEADER++++ */
 
 .header {
@@ -39,9 +49,14 @@ ul {
     width: 100%;
 }
 
+
 .menu_items_a {
     text-decoration: none;
     text-transform: uppercase;
+    font-family: Montserat;
+    font-weight: bold;
+    font-size: 14px;
+    color: #222222;
 }
 
 
@@ -51,17 +66,31 @@ ul {
     text-align: center;
     margin: 0 auto;
     text-transform: uppercase;
+    font-family: Montserat;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.top_section {
+    padding-top: 110px;
 }
 
 .description_title {
     text-align: center;
     margin: 0 auto;
+    font-family: Source;
+    font-style: italic;
+    font-size: 16px;
+    color: #777777;
 }
 
 .services {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 110px;
 }
 
 .service_items {
@@ -73,12 +102,30 @@ ul {
     margin-right: 0px;
 }
 
+.services_title {
+    font-family: Montserat;
+    font-size: 18px;
+    color: #343434;
+    font-weight: bold;
+}
 /* +++++SECOND SECTION===== */
 
 .bottom_section {
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 110px;
+    padding-bottom: 115px;
+}
+
+.second {
+    color: #ffffff;
+}
+
+.services_description {
+    font-family: Source;
+    font-size: 14px;
+    color: #777777;
 }
 
 /* ++++++FORM-______ */
@@ -108,6 +155,7 @@ form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 75px;
 }
 
 textarea {
