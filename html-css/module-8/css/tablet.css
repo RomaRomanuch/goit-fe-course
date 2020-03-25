@@ -48,4 +48,10 @@
     .partner_section {
         padding-bottom: 40px;
     }
+
+    .img_partner > img:last-of-type {
+        position: absolute;
+        bottom: 60px;
+        right: 60px;
+    }
 }

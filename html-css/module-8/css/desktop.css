@@ -1,0 +1,33 @@
+@media (min-width: 1032px){
+    .container {
+        width: 940px;
+    }
+
+    .title_section {
+        background-image: url(../img/descktop_background.jpg);
+    }
+
+    .partner {
+        width: 207px;
+    }
+
+    .partners {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .img_partner > img:last-of-type {
+        position: absolute;
+        bottom: 60px;
+        right: 45px;
+    }
+
+    .registration {
+        margin-bottom: 160px;
+    }
+
+    .offer {
+        margin-bottom: 30px;
+    }
+
+}
