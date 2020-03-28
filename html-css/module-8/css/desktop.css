@@ -11,6 +11,14 @@
         width: 207px;
     }
 
+    .partner_section {
+        padding-bottom: 70px;
+    }
+
+    .registration_link {
+        font-size: 20px;
+    }
+
     .partners {
         display: flex;
         justify-content: space-around;

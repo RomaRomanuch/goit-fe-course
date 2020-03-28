@@ -23,6 +23,8 @@
     padding: 8px 18px ;
     font-size: 14px;
     color: #fff;
+    font-family: 'Montserrat_400', sans-serif;
+    font-weight: bold;
 }
 
 .registration_link:hover {
@@ -45,8 +47,11 @@
     font-weight: bold;
     text-transform: uppercase;
     /* font-family: "Montserrat"; */
+    font-family: Montserrat_700, sans-serif;
+    font-weight: bold;
 }
 
+  
   .second_title {
     margin-bottom: 20px;
     font-size: 30px;
@@ -54,7 +59,10 @@
     font-weight: bold;
     text-transform: uppercase;
     /* font-family: "Montserrat"; */
+    font-family: Montserrat_700, sans-serif;
 }
+
+  
 
 
 
@@ -63,6 +71,7 @@
     font-size: 18px;
     /* font-family: "Roboto"; */
     color: #ffffff;
+    font-family: Roboto_300, sans-serif;
 }
 
 .contains_first_button {

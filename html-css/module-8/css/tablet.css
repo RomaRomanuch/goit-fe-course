@@ -14,10 +14,30 @@
         flex-direction: row-reverse;
     }
 
+    .registration {
+        margin-bottom: 150px;
+    }
+
     .title_section {
         background-image: url(../img/tablet_background.jpg);
         padding-bottom: 235px;
         padding-top: 40px;
+    }
+
+    .second_title {
+        font-size: 52px;
+        font-family: "Montserrat_700", sans-serif;
+        margin-bottom: 40px;
+    }
+
+    .offer {
+        font-size: 24px;
+        font-family: "Roboto_400", sans-serif;
+        margin-bottom: 35px;
+    }
+    
+    .second_section_title {
+        margin-bottom: 40px;
     }
 
     .partner {
@@ -31,6 +51,7 @@
 
     .partner:nth-child(1) {
         order: 1;
+        margin-bottom: 60px;
     }
 
     .partner:nth-child(2) {
@@ -43,6 +64,7 @@
 
     .partner:nth-child(4) {
         order: 4;
+        margin-bottom: 40px;
     }
 
     .partner_section {
