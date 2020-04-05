@@ -23,7 +23,7 @@
     padding: 8px 18px ;
     font-size: 14px;
     color: #fff;
-    font-family: 'Montserrat_400', sans-serif;
+    font-family: "Montserrat_400";
     font-weight: bold;
 }
 
@@ -112,7 +112,7 @@
 
 .second_section_title {
     font-size: 22px;
-    /* font-family: "Montserrat"; */
+    font-family: "Montserrat", sans-serif;
     color: rgb(51, 51, 51);
     font-weight: bold;
     margin-bottom: 18px; 
@@ -121,15 +121,16 @@
 .partner_name {
     color: rgb(51, 51, 51);
     font-size: 14px;
-    /* font-family: "Montserrat"; */
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .partner_description {
     font-size: 14px;
-    /* font-family: "Roboto"; */
+    font-family: "Roboto", sans-serif;
     color: rgb(102, 102, 102);
+    
 }
 
 .partner:not(:last-child) {
