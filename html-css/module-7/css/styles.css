@@ -98,7 +98,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
-    padding-bottom: 110px;
+    margin-bottom: 110px;
 }
 
 .service_items {
@@ -138,6 +138,14 @@ ul {
 
 /* ++++++FORM-______ */
 
+input {
+    font-family: Montserat;
+    text-transform: uppercase; 
+    font-weight: bold;
+    padding-left: 15px;
+    color: #bbbbbb;
+}
+
 input[type="text"] {
     width: 455px;
     height: 55px;
@@ -145,7 +153,10 @@ input[type="text"] {
     border-width: 1px;
     border-color: rgb(204, 204, 204);
     border-radius: 2px;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255);
+    font-family: Montserat;
+    text-transform: uppercase; 
+    font-weight: bold;
 }
 
 
@@ -173,6 +184,12 @@ textarea {
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
     resize: none;
+    font-family: Montserat;
+    text-transform: uppercase; 
+    font-weight: bold;
+    padding-left: 15px;
+    color: #bbbbbb;
+    padding-top: 15px;
 }
 
 .first_flex {
@@ -201,25 +218,25 @@ input[type="submit"] {
 
 
 input[type="text"]:valid {
-    outline:  2px green solid;
+    outline:  1px greenyellow solid;
 }
 
 input[type="text"]:invalid {
-    outline: 2px red solid;
+    outline: 1px red solid;
 }
 
 textarea:valid {
-    outline:  2px green solid;
+    outline:  1px greenyellow solid;
 }
 
 textarea:invalid {
-    outline: 2px red solid;
+    outline: 1px red solid;
 }
 
 input[type="email"]:valid {
-    outline:  2px green solid;
+    outline:  1px greenyellow solid;
 }
 
 input[type="email"]:invalid {
-    outline: 2px red solid;
+    outline: 1px red solid;
 }
