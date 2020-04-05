@@ -20,10 +20,14 @@ h1, h2, h3, p {
 }
 
 
+
+
 /* =============HEADER==============
 _________________________________ */
 .header {
-    padding: 40px 0 33px;
+    /* padding: 40px 0 33px; */
+    margin-top: 40px;
+    margin-bottom: 33px;
 }
 
 .header_inner {
@@ -68,12 +72,16 @@ _________________________________ */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 
 }
 .slider_content {
     font-family: "Roboto";
     color: #ffffff;
     text-transform: uppercase;
+    position: absolute;
+    left: 185px;
+    bottom: 25px;
 }
 
 .slider_title {
@@ -104,7 +112,8 @@ _____________________________ */
     font-family: "Roboto";
     color: rgb(81, 81, 81);
     text-transform: uppercase;
-    padding-bottom: 80px;
+    margin-bottom: 110px;
+    position: relative;
 }
 
 .bottom_title::after {
@@ -115,6 +124,11 @@ _____________________________ */
     height: 7px;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+    
 }
 
 .cards {
@@ -236,10 +250,11 @@ ____________________
 
 .footer {
     background-color: #323232;
-    height: 88px;
+    /* height: 88px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 35px 0px;
 }
 
 .describe_footer {
