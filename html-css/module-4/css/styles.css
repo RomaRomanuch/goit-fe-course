@@ -134,7 +134,7 @@ h2 {
     margin-right: 0px;
 }
 
-.items_1:nth-child(n+6) {
+.items_1:nth-child(n+5) {
     margin-bottom: 0px;
 }
 
@@ -175,7 +175,6 @@ h2 {
     padding-left: 10px;
 }
 .section_one {
-    margin-top: 115px;
     margin-bottom: 100px;
 }
 
