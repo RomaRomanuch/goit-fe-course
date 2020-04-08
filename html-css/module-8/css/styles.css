@@ -47,19 +47,19 @@
     font-weight: bold;
     text-transform: uppercase;
     /* font-family: "Montserrat"; */
-    font-family: Montserrat_700, sans-serif;
+    font-family: "Montserrat_700";
     font-weight: bold;
 }
 
   
   .second_title {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 28px;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     /* font-family: "Montserrat"; */
-    font-family: Montserrat_700, sans-serif;
+    font-family: "Montserrat_700";
 }
 
   
@@ -71,7 +71,7 @@
     font-size: 18px;
     /* font-family: "Roboto"; */
     color: #ffffff;
-    font-family: Roboto_300, sans-serif;
+    font-family: "Roboto_300";
 }
 
 .contains_first_button {
@@ -82,7 +82,7 @@
     font-size: 14px;
     font-weight: bold;
     border-radius: 20px;
-    /* font-family: "Montserrat"; */
+    font-family: "Montserrat_400";
 }
 
 /* =====SECOND SECTION===== */
@@ -112,7 +112,7 @@
 
 .second_section_title {
     font-size: 22px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat_700", sans-serif;
     color: rgb(51, 51, 51);
     font-weight: bold;
     margin-bottom: 18px; 
@@ -121,14 +121,14 @@
 .partner_name {
     color: rgb(51, 51, 51);
     font-size: 14px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat_700", sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .partner_description {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto_300", sans-serif;
     color: rgb(102, 102, 102);
     
 }
@@ -147,8 +147,8 @@
     border-color: rgb(255, 78, 80);
     border-radius: 22px;
     color: rgb(255, 78, 80);
-    /* font-family: "Montserrat"; */
+    font-family: "Montserrat_400";
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
 }
 
