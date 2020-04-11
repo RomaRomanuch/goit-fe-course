@@ -36,7 +36,7 @@ __________________ */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 115px;
+    margin-bottom: 115px;
 }
 
 .nav {
@@ -188,8 +188,6 @@ __________________ */
 
 .member {
     position: relative;
-    margin-bottom: 80px;
-    
 }
 
 .blue_bottom {
