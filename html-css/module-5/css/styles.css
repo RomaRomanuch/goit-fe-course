@@ -251,6 +251,10 @@ ____________________
 .footer {
     background-color: #323232;
     /* height: 88px; */
+   
+}
+
+.footer__content {
     display: flex;
     justify-content: center;
     align-items: center;
