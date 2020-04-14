@@ -8,10 +8,15 @@
         width: 490px;
         margin: 0 auto;
     }
-    .header {
+    .header__absolute {
         display: flex;
         justify-content: space-between;
         flex-direction: row-reverse;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 40px;
+        min-width: 660px;
     }
 
     .registration {
@@ -21,11 +26,11 @@
     .title_section {
         background-image: url(../img/tablet_background.jpg);
         padding-bottom: 235px;
-        padding-top: 40px;
+        padding-top: 225px;
     }
 
     .second_title {
-        font-size: 52px;
+        font-size: 50px;
         font-family: "Montserrat_700", sans-serif;
         margin-bottom: 40px;
     }

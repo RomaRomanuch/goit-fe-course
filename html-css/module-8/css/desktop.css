@@ -3,6 +3,8 @@
         width: 940px;
     }
 
+
+
     .title_section {
         background-image: url(../img/descktop_background.jpg);
     }
@@ -34,8 +36,18 @@
         margin-bottom: 160px;
     }
 
+    .header__absolute {
+        min-width: 940px;
+    }
+
     .offer {
         margin-bottom: 30px;
+    }
+
+    .second_title {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
