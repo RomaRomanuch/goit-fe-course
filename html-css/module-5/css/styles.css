@@ -72,14 +72,13 @@ _________________________________ */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-
+    position: absolute;
+    top: 300px;
 }
 .slider_content {
     font-family: "Roboto";
     color: #ffffff;
     text-transform: uppercase;
-    position: absolute;
     left: 185px;
     bottom: 25px;
 }
@@ -96,7 +95,8 @@ _________________________________ */
 
 .slider_button {
     padding: 30px 40px;
-    background-color: rgba(78, 198, 171, 0.651) ;
+    background-color: rgba(78, 198, 171, 0.651);
+    margin-top: 50px;
 }
   
 
