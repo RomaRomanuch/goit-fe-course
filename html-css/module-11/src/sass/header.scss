@@ -1,0 +1,97 @@
+.header {
+    background-image: url(../images/background.jpg);
+    padding-bottom: 230px;
+    padding-top: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    @media (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) { 
+    background-image: url(../images/background@2x.jpg);
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 115px;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+
+    &__link {
+        text-transform: uppercase;
+        padding: 12px 0px;
+        transition: .2s linear;
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: $section-first-text;
+        position: relative;
+        font-weight: bold;
+        margin-left: 50px;
+
+        &:first-child {
+            margin-left: 0px;
+        }
+
+        &:hover {
+            color: $golden-hover;
+            
+            &::after {
+                opacity: 1;
+            }
+        }
+
+        &::after {
+            display: block;
+            content: "";
+            height: 3px;
+            width: 100%;
+            position: absolute;
+            background-color: $golden-hover;
+            bottom: 0px;
+            opacity: 0;
+            transition: .2s linear;
+        }
+    }
+
+    &__first-title {
+        text-align: center;
+        font-size: 72px;
+        font-family: "Kaushan Script";
+        color: $section-first-text;
+    }
+
+    &__main-title {
+        text-align: center;
+        color: $section-first-text;
+        font-size: 150px;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 1;
+        max-width: 820px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 124px;
+    }
+
+    &__button {
+        margin: 0 auto;
+        display: block;
+        color: $section-first-text;
+        border: 3px #fff solid;
+        padding: 10px 20px;
+    }
+
+    &__svg {
+        fill: $section-first-text;
+        &:hover {
+            fill: $golden-hover;
+        }
+    }
+}
+
