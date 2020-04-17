@@ -78,6 +78,14 @@ ul {
 
 /* =====first_section====== */
 
+.top_section {
+    display: flex;
+}
+
+.bottom_section {
+    display: flex;
+}
+
 .title {
     text-align: center;
     margin: 0 auto;
@@ -86,11 +94,10 @@ ul {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
+    margin-top: 110px;
 }
 
-.top_section {
-    padding-top: 110px;
-}
+
 
 .description_title {
     text-align: center;
@@ -99,6 +106,10 @@ ul {
     font-style: italic;
     font-size: 16px;
     color: #777777;
+}
+
+.description_title:last-of-type {
+    margin-bottom: 75px;
 }
 
 .services {
@@ -111,7 +122,8 @@ ul {
 
 .service_items {
     text-align: center;
-    margin-right: 55px;
+    max-width: 290px;
+    
 }
 
 .service_items > img {
@@ -122,9 +134,6 @@ ul {
     margin-bottom: 15px;
 }
 
-.service_items:last-child {
-    margin-right: 0px;
-}
 
 .services_title {
     font-family: Montserat;
@@ -138,8 +147,6 @@ ul {
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 110px;
-    padding-bottom: 115px;
 }
 
 .second {
@@ -190,7 +197,7 @@ form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 75px;
+    margin-bottom: 110px;
 }
 
 textarea {
