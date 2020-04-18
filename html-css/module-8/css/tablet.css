@@ -8,31 +8,34 @@
         width: 490px;
         margin: 0 auto;
     }
-    .header__absolute {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row-reverse;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 40px;
-        min-width: 660px;
+
+    .header::before {
+        line-height: 50px;
+    }
+    
+    .header {
+        background-image: url(../img/tablet_background.jpg);
     }
 
     .registration {
         margin-bottom: 150px;
     }
+    
+    .menu {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
 
-    .title_section {
-        background-image: url(../img/tablet_background.jpg);
-        padding-bottom: 235px;
-        padding-top: 225px;
+    .contains_first_button {
+        margin-bottom: 240px;
     }
 
     .second_title {
         font-size: 50px;
         font-family: "Montserrat_700", sans-serif;
         margin-bottom: 40px;
+        margin-top: 70px;
     }
 
     .offer {
@@ -72,9 +75,6 @@
         margin-bottom: 40px;
     }
 
-    .partner_section {
-        padding-bottom: 40px;
-    }
 
     .img_partner > img:last-of-type {
         position: absolute;

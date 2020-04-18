@@ -3,19 +3,16 @@
         width: 940px;
     }
 
-
-
-    .title_section {
+    .header {
         background-image: url(../img/descktop_background.jpg);
     }
+
 
     .partner {
         width: 207px;
     }
 
-    .partner_section {
-        padding-bottom: 70px;
-    }
+    
 
     .registration_link {
         font-size: 20px;
@@ -36,8 +33,8 @@
         margin-bottom: 160px;
     }
 
-    .header__absolute {
-        min-width: 940px;
+    .contains_first_button {
+        margin-bottom: 70px;
     }
 
     .offer {
