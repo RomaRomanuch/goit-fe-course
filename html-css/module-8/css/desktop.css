@@ -12,6 +12,10 @@
         width: 207px;
     }
 
+    .partner:nth-child(1) {
+        margin-bottom: 0px;
+    }
+
     
 
     .registration_link {
@@ -30,7 +34,7 @@
     }
 
     .registration {
-        margin-bottom: 160px;
+        margin-bottom: 0px;
     }
 
     .contains_first_button {

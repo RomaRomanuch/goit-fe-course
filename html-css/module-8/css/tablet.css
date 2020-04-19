@@ -18,13 +18,14 @@
     }
 
     .registration {
-        margin-bottom: 150px;
+        margin-bottom: 0px;
     }
     
     .menu {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+        margin-bottom: 150px;
     }
 
     .contains_first_button {
@@ -59,7 +60,7 @@
 
     .partner:nth-child(1) {
         order: 1;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     .partner:nth-child(2) {
@@ -72,7 +73,6 @@
 
     .partner:nth-child(4) {
         order: 4;
-        margin-bottom: 40px;
     }
 
 
