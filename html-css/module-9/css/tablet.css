@@ -1,0 +1,85 @@
+@media (min-width: 768px){
+
+    .container{
+        width: 670px;
+    }
+
+    .container_tablet {
+        width: 490px;
+        margin: 0 auto;
+    }
+
+    .header::before {
+        line-height: 50px;
+    }
+    
+    .header {
+        background-image: url(../img/tablet_background.jpg);
+    }
+
+    .registration {
+        margin-bottom: 0px;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 150px;
+    }
+
+    .contains_first_button {
+        margin-bottom: 240px;
+    }
+
+    .second_title {
+        font-size: 50px;
+        font-family: "Montserrat_700", sans-serif;
+        margin-bottom: 40px;
+        margin-top: 70px;
+    }
+
+    .offer {
+        font-size: 24px;
+        font-family: "Roboto_400", sans-serif;
+        margin-bottom: 35px;
+    }
+    
+    .second_section_title {
+        margin-bottom: 40px;
+    }
+
+    .partner {
+        width: 236px;
+    }
+
+    .partners {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .partner:nth-child(1) {
+        order: 1;
+        margin-bottom: 30px;
+    }
+
+    .partner:nth-child(2) {
+        order: 3;
+        margin-bottom: 0px;
+    }
+
+    .partner:nth-child(3) {
+        order: 2;
+    }
+
+    .partner:nth-child(4) {
+        order: 4;
+    }
+
+
+    .img_partner > img:last-of-type {
+        position: absolute;
+        bottom: 70px;
+        right: 40px;
+    }
+}
