@@ -9,9 +9,7 @@
         margin: 0 auto;
     }
 
-    .header::before {
-        line-height: 50px;
-    }
+
     
     .header {
         background-image: url(../img/tablet_background.jpg);

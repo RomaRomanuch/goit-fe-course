@@ -10,12 +10,14 @@
 
     .partner {
         width: 207px;
-    }
-
-    .partner:nth-child(1) {
         margin-bottom: 0px;
     }
 
+    .partner:not(:last-child) {
+        margin-bottom: 0px;
+    }
+
+    
     
 
     .registration_link {

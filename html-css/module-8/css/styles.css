@@ -1,3 +1,4 @@
+
 .container {
     width: 280px;
     padding-left: 20px;
@@ -5,19 +6,15 @@
     margin: 0 auto;
 }
 
+
 .header {
     background-image: url(../img/mobile_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.header::before {
-    content: "q";
-    display: block;
-    position: relative;
-    left: 10000000px;
-    line-height: 20px;
-}
+
+
 
 .registration {
     display: flex;
