@@ -11,6 +11,7 @@
     background-image: url(../img/mobile_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: auto;
 }
 
 
@@ -24,6 +25,7 @@
 
 .menu {
     margin-bottom: 35px;
+    margin-top: 20px;
 }
 .registration_link {
     padding: 8px 18px ;
