@@ -1,16 +1,16 @@
 .registration {
-  background-image: url(../../images/mobile/form-bg.jpg);
+  background-image: url(../images/mobile/form-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 55px;
   padding-bottom: 60px;
 
   @include tablet-media {
-    background-image: url(../../images/tablet/form-background.jpg);
+    background-image: url(../images/tablet/form-background.jpg);
   }
 
   @include desktop-media {
-    background-image: url(../../images/desktop/formback.jpg);
+    background-image: url(../images/desktop/formback.jpg);
     padding-top: 70px;
     padding-bottom: 85px;
   }
