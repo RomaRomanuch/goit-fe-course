@@ -1,0 +1,174 @@
+.programm {
+  background-color: $black-color;
+  padding-top: 50px;
+
+  &__title {
+    @include title;
+    color: $white-color;
+    text-align: center;
+    margin-bottom: 40px;
+    
+    @include tablet-media {
+      font-size: 26px;
+      text-align: start;
+      margin-bottom: 50px;
+    }
+
+    @include desktop-media {
+      font-size: 42px;
+      margin-bottom: 90px;
+    }
+  }
+
+  &__wraper {
+    @include tablet-media {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__list {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include tablet-media {
+      width: 510px;
+    }
+
+    @include desktop-media {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__main-wrap {
+    @include tablet-media {
+      display: flex;
+    }
+
+    @include desktop-media {
+      flex-direction: column;
+    }
+  }
+
+  // &__items-wrap {
+  //   @include tablet-media {
+
+  //   }
+  // }
+
+  &__listitem {
+    padding-bottom: 45px;
+    position: relative;
+    padding-left: 35px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 7px;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background-color: $text-light-color;
+
+      @include desktop-media {
+        width: 2000%;
+        height: 2px;
+        left: -2000px;
+        top: -50px;
+      }
+    }
+
+    @include tablet-media {
+      padding-left: 50px;
+    }
+
+    @include desktop-media {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+    }
+  }
+
+  &__modi {
+    &::before{
+      content: none;
+    }
+  }
+
+  &__mod {
+    &::after {
+      content: '';
+      display: block;
+      width: 25px;
+      height: 2px;
+      background-color: $contrast-color;
+      margin-right: auto;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+  }
+
+  &__semestertitle {
+    font-family: 'Mon-800';
+    font-size: 15px;
+    color: $white-color;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 6px;
+      left: -39px;
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background-color: $contrast-color;
+      z-index: 1;
+
+      @include tablet-media {
+        left: -54px;
+      }
+
+      @include desktop-media {
+        left: 0;
+        top: -58px;
+        width: 18px;
+        height: 18px;
+      }
+    }
+
+    @include desktop-media {
+      font-size: 19px;
+    }
+  }
+
+
+  &__secondarytitle {
+    font-family: 'Mon-800';
+    font-size: $text-primary;
+    color: $contrast-color;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    @include tablet-media {
+      margin-right: 115px;
+    }
+
+    @include desktop-media {
+      font-size: 18.75px;
+    }
+  }
+
+  &__paragraph {
+    font-family: 'Mon-400';
+    font-size: $text-light-size;
+    color: $text-light-color;
+    line-height: 2;
+
+    @include desktop-media {
+      font-size: 18.75px;
+    }
+  }
+}

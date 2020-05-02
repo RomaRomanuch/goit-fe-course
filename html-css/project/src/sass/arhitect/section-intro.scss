@@ -1,0 +1,156 @@
+.intro {
+  padding-top: 55px;
+  background-image: url(../../images/header/bgimg.jpg);
+  @include tablet-media {
+    background-image: url(../../images/tablet/backgroundwave.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  &__flex-wrap {
+    @include tablet-media {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__description {
+    @include tablet-media {
+      margin-right: 35px;
+    }
+  }
+
+  &__title {
+    @include title;
+    margin-bottom: 35px;
+
+    @include tablet-media {
+      font-size: 25px;
+      margin-bottom: 25px;
+    }
+    
+    @include desktop-media {
+      font-size: 48px;
+    }
+  }
+
+  &__paragraph {
+    color: $text-light-color;
+    font-size: 16px;
+    font-family: 'Mon-400';
+
+    @include desktop-media {
+      font-size: 18px;
+    }
+  }
+
+  &__offer {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 35px;
+
+    @include desktop-media {
+      font-size: 18px;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__span {
+    color: $contrast-color;
+  }
+
+  &__button {
+    color: $white-color;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    font-family: 'Mon-700';
+    font-size: 11px;
+    background-color: $contrast-color;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+
+    @include tablet-media {
+      margin: 0;
+    }
+
+    @include desktop-media {
+      font-size: 12px;
+    }
+  }
+
+  &__image {
+    text-align: center;
+    margin-bottom: 85px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mon-700';
+    font-size: $text-primary;
+    margin-bottom: 25px;
+
+    @include tablet-media {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 50px;
+    }
+  }
+
+  &__listitem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 310px;
+  }
+
+  &__svgwrapper {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border: 2px $contrast-color solid;
+    margin-right: 10px;
+    flex-shrink: 0;
+    position: relative;
+
+    @include desktop-media {
+      width: 100px;
+      height: 100px;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      background-color: $white-color;
+      height: 36px;
+      width: 5px;
+      bottom: 10px;
+      right: -4px;
+
+      @include desktop-media {
+        height: 75px;
+      }
+    }
+  }
+
+  &__svg {
+    display: block;
+    width: 80%;
+    height: 80%;
+    fill: $contrast-color;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+
+  &__svgtext {
+    @include desktop-media {
+      position: relative;
+      right: 25px;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.choice {
+  background-image: linear-gradient($black-color 59%, $white-color 59%);
+
+  @include tablet-media {
+    padding-top: 85px;
+  }
+
+  @include desktop-media {
+    padding-top: 45px;
+    background-image: linear-gradient($black-color 100%, $white-color 90%);
+  }
+
+  &__hat {
+    display: flex;
+
+    @include tablet-media {
+      flex-direction: column-reverse;
+      position: relative;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__title {
+    @include title;
+    color: $white-color;
+    text-align: center;
+
+    @include tablet-media {
+      font-size: 26px;
+    }
+    @include desktop-media {
+      z-index: 1;
+      font-size: 42px;
+    }
+  }
+
+  &__list {
+    position: relative;
+    bottom: 111px;
+    box-shadow: 4px 6.928px 15.54px 5.46px rgba(29, 29, 27, 0.04);
+
+    @include tablet-media {
+      position: static;
+      margin-bottom: 65px;
+    }
+
+    @include desktop-media {
+      position: relative;
+      bottom: 0;
+    }
+  }
+
+  &__img {
+    margin-left: auto;
+    position: relative;
+    bottom: 85px;
+    left: 20px;
+
+    @include tablet-media {
+      position: absolute;
+      left: 325px;
+    }
+
+    @include desktop-media {
+      left: -40px;
+      bottom: -80px;
+    }
+  }
+}

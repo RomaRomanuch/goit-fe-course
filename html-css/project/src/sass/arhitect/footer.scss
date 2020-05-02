@@ -1,0 +1,83 @@
+.footer {
+  background-image: linear-gradient($white-color 71%, $black-color 29%);
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @include tablet-media {
+    padding-top: 35px;
+    background-image: linear-gradient($white-color 63%, $black-color 63%);
+  }
+
+  &__flex {
+    @include tablet-media {
+      display: flex;
+      align-items: center;
+      margin-bottom: 70px;
+    }
+  }
+
+  &__phonewrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    align-items: center;
+    order: 2;
+
+    @include tablet-media {
+      margin-right: 75px;
+      margin-bottom: 0px;
+    }
+  }
+
+  &__phonesvg {
+    fill: $contrast-color;
+  }
+
+  &__tel {
+    font-family: 'Mon-700';
+    font-size: 18px;
+  }
+
+  &__svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    order: 3;
+
+    @include tablet-media {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0px;
+    }
+  }
+
+  &__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    order: 1;
+
+    @include tablet-media {
+      margin-right: 75px;
+      margin-bottom: 0px;
+    }
+
+    @include desktop-media {
+      margin-right: 260px;
+    }
+  }
+
+  &__roofs {
+    text-align: center;
+    font-family: 'Mon-400';
+    font-weight: bold;
+    font-size: $text-light-size;
+    color: $text-light-color;
+
+    @include tablet-media {
+      text-align: left;
+    }
+  }
+}

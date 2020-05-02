@@ -1,0 +1,109 @@
+.intro2 {
+  background-image: linear-gradient($black-color 77%, $white-color 77%);
+  padding-top: 50px;
+
+  @include tablet-media {
+    background-image: url(../../images/tablet/fire-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 60px;
+  }
+
+  @include desktop-media {
+    background-image: url(../../images/desktop/fire.jpg);
+    padding-top: 70px;
+  }
+
+  &__title {
+    color: $white-color;
+    @include title;
+    margin-bottom: 15px;
+
+    @include tablet-media {
+      width: 450px;
+      font-size: 26px;
+    }
+
+    @include desktop-media {
+      font-size: 42px;
+      margin-bottom: 45px;
+      width: 700px;
+    }
+  }
+
+  &__span {
+    color: $contrast-color;
+  }
+
+  &__list {
+    width: $mobile-width;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $white-color;
+    padding-top: 25px;
+    padding-left: 25px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    box-shadow: 4px 6.928px 15.54px 5.46px rgba(29, 29, 27, 0.04);
+    counter-reset: number;
+
+    @include tablet-media {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 60px 40px 100px;
+      justify-content: space-between;
+    }
+
+    @include desktop-media {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+
+  &__item {
+    position: relative;
+
+    &::before {
+      counter-increment: number;
+      content: "0"counter(number);
+      color: $contrast-color;
+      position: absolute;
+      left: 47px;
+      top: -12px;
+      font-weight: bold;
+    }
+
+    &:last-child>p {
+      margin-bottom: 0px;
+    }
+
+    @include tablet-media {
+      width: 230px;
+    }
+
+    @include desktop-media {
+      width: 270px;
+    }
+  }
+
+  &__paragraph {
+    font-family: 'Mon-700';
+    font-size: $text-primary;
+    margin-bottom: 25px;
+
+    @include desktop-media {
+      margin-bottom: 40px;
+      font-size: 18px;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      width: 25px;
+      height: 2px;
+      background-color: $contrast-color;
+      margin-bottom: 25px;
+    }
+  }
+}

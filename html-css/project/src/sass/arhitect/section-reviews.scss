@@ -1,0 +1,191 @@
+.reviews {
+  background-color: $white-color;
+  padding-top: 45px;
+
+  @include tablet-media {
+    padding-top: 60px;
+  }
+
+  @include desktop-media {
+    padding-top: 90px;
+  }
+
+  &__flex {
+    @include tablet-media{
+      display: flex;
+    }
+  }
+
+  &__flex-item {
+    &:first-child{
+      @include tablet-media {
+        margin-right: 40px;
+      }
+    }
+  }
+
+  &__title {
+    @include title;
+    text-align: center;
+    margin-bottom: 15px;
+
+    @include tablet-media {
+      font-size: 26px;
+    }
+
+    @include desktop-media {
+      font-size: 42px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__wraper {
+    background-color: $white-color;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    box-shadow: 4px 6.928px 34.96px 11.04px rgba(29, 29, 27, 0.09);
+
+    @include tablet-media{
+      padding: 45px 35px;
+    }
+
+    @include desktop-media {
+      width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__wraper2 {
+    width: 248px;
+    margin: 0 auto;
+
+    @include tablet-media {
+      width: 100%;
+    }
+  }
+
+  &__wraperimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+  &__wrapersvg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  &__name {
+    font-family: 'Mon-800';
+    font-size: $text-primary;
+    color: $contrast-color;
+    text-align: center;
+
+    @include tablet-media {
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    @include desktop-media {
+      font-size: 25px;
+    }
+  }
+
+  &__description {
+    font-family: 'Mon-400';
+    font-size: $text-light-size;
+    color: $text-light-color;
+    text-align: center;
+    margin-bottom: 20px;
+
+    @include tablet-media {
+      font-size: 12.5px;
+      text-align: left;
+    }
+  }
+
+  &__paragraph {
+    font-family: 'Mon-400';
+    font-size: $text-light-size;
+    text-align: center;
+    font-weight: bold;
+
+    @include tablet-media {
+      text-align: left;
+    }
+
+    @include desktop-media {
+      font-size: 16.5px;
+    }
+  }
+
+  &__readmore {
+    color: $contrast-color;
+  }
+
+  &__slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+    @include tablet-media {
+      justify-content: center;
+      position: relative;
+    }
+
+    @include desktop-media {
+      padding-top: 30px;
+      padding-bottom: 100px;
+    }
+  }
+
+  &__image {
+    &:nth-of-type(n+4) {
+      display: none;
+
+      @include tablet-media {
+        display: block;
+      }
+    }
+
+    @include tablet-media {
+      &:not(:last-of-type) {
+        margin-right: 20px;
+      }
+    }
+
+  }
+
+  &__arrow {
+    color: $contrast-color;
+    font-size: 30px;
+
+    @include tablet-media {
+      position: absolute;
+      left: -25px;
+      bottom: 216px;
+      font-size: 40px;
+
+      @include desktop-media {
+        bottom: 245px;
+        font-size: 55px;
+      }
+
+      &:last-child {
+        left: 680px;
+
+        @include desktop-media {
+          left: 1180px;
+        }
+      }
+    }
+  }
+
+}

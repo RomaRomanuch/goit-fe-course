@@ -1,0 +1,158 @@
+.teacher {
+  background-color: $white-color;
+  margin-top: -66px;
+  
+  @include tablet-media {
+    margin-top: 0;
+  }
+
+  @include desktop-media {
+    padding-top: 15px;
+  }
+
+  &__flex {
+    @include tablet-media {
+      display: flex;
+    }
+  }
+
+  &__flex-item {
+    @include tablet-media {
+      &:last-child {
+        margin-top: 56px;
+
+        @include desktop-media {
+          margin-top: 74px;
+        }
+      }
+
+      &:first-child {
+        margin-right: 40px;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 25px;
+    @include title;
+
+    @include tablet-media {
+      font-size: 26px;
+    }
+
+    @include desktop-media {
+      font-size: 42px;
+    }
+  }
+
+  &__img {
+    margin-bottom: 25px;
+
+    @include desktop-media {
+      margin-bottom: 0;
+    }
+  }
+
+  &__name {
+    margin-bottom: 5px;
+    font-family: 'Mon-800';
+    font-size: 16px;
+
+    @include tablet-media {
+      font-size: $big-title;
+    }
+
+    @include desktop-media {
+      font-size: 29px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__list {
+    &::before {
+      content: '';
+      height: 1px;
+      width: 100%;
+      display: block;
+      background-color: $text-light-color;
+      margin-bottom: 30px;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 25px;
+      height: 2px;
+      background-color: $contrast-color;
+      position: relative;
+      left: 15px;
+      margin-bottom: 20px;
+
+      @include tablet-media {
+        left: 0;
+      }
+    }
+  }
+
+  &__item {
+    font-family: 'Mon-400';
+    font-size: $text-primary;
+    display: inline-flex;
+    margin-bottom: 20px;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      margin-right: 20px;
+      background-image: url(../../images/svg/noun_Check_2422424.svg);
+      background-size: cover;
+      fill: $contrast-color;
+    }
+  }
+
+  &__description {
+    display: block;
+    font-family: 'Mon-700';
+    font-size: $text-primary;
+
+    @include desktop-media {
+      font-size: 16px;
+    }
+  }
+
+  &__waterinner {
+    font-family: 'Mon-400';
+    font-size: $text-light-size;
+    color: $text-light-color;
+    margin-bottom: 20px;
+    margin-left: 15px;
+
+    @include tablet-media {
+      margin-left: 0;
+    }
+
+    @include desktop-media {
+      font-size: 16px;
+      line-height: 2.4;
+    }
+  }
+
+  &__link {
+    font-family: 'Mon-400';
+    font-size: $text-light-size;
+    color: $contrast-color;
+    margin-left: 15px;
+    display: inline-block;
+
+    @include tablet-media {
+      margin-left: 0;
+    }
+
+    @include desktop-media {
+      font-size: 16px;
+    }
+  }
+}

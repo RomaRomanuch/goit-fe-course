@@ -1,0 +1,33 @@
+$white-color: #fff;
+$contrast-color: #ff6b08;
+$black-color: #111517;
+$text-light-color: #858585;
+$light-blue: #eeeeee;
+
+
+$big-title: 20px;
+$text-light-size: 11px;
+$text-primary: 13px;
+
+
+$mobile-width: 280px;
+$tablet-width: 767px;
+$desktop-width: 1279px;
+
+@mixin title {
+  font-family: 'Mon-800';
+  font-size: $big-title;
+}
+
+@mixin tablet-media {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop-media {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+

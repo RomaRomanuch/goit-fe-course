@@ -1,0 +1,114 @@
+.intro3 {
+  background-color: $white-color;
+  padding-top: 45px;
+
+  @include desktop-media {
+    padding-top: 50px;
+  }
+
+  &__title {
+    @include title;
+    text-align: center;
+    margin-bottom: 40px;
+
+    @include desktop-media {
+      font-size: 42px;
+      text-align: left;
+    }
+  }
+
+  &__list {
+    margin-bottom: 50px;
+    
+    @include tablet-media {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 45px 0;
+      justify-content: space-between;
+      margin-bottom: 35px;
+    }
+
+    @include desktop-media {
+      padding: 0;
+      margin-bottom: 85px;
+    }
+  }
+
+  &__item {
+    min-height: 260px;
+    background-color: $white-color;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
+    transition: all .2s linear;
+
+    &:hover {
+      background-color: $contrast-color;
+
+      &>* {
+        fill: $white-color;
+        color: $white-color;
+      }
+
+      &>*::before {
+        background-color: $white-color;
+      }
+    }
+
+    @include tablet-media {
+      width: 290px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 25px;
+      box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
+    }
+
+    @include desktop-media {
+      padding-top: 40px;
+      padding-left: 25px;
+      padding-right: 25px;
+      width: 390px;
+    }
+  }
+
+  &__svg {
+    fill: $contrast-color;
+    margin-bottom: 15px;
+  }
+
+  &__itemtitle {
+    font-family: 'Mon-700';
+    font-size: $text-primary;
+    margin-bottom: 20px;
+
+    @include desktop-media {
+      font-size: 18px;
+    }
+  }
+
+  &__paragraph {
+    color: $text-light-color;
+    font-family: 'Mon-400';
+    font-size: $text-light-size;
+    line-height: 2;
+
+    @include desktop-media {
+      font-size: 15px;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      width: 25px;
+      height: 2px;
+      background-color: $contrast-color;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+  }
+}
