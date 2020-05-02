@@ -1,8 +1,8 @@
 .intro {
   padding-top: 55px;
-  background-image: url(../../images/header/bgimg.jpg);
+  background-image: url(../images/header/bgimg.jpg);
   @include tablet-media {
-    background-image: url(../../images/tablet/backgroundwave.png);
+    background-image: url(../images/tablet/backgroundwave.png);
     background-size: 100%;
     background-repeat: no-repeat;
   }

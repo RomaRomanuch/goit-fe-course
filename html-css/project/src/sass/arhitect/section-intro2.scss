@@ -3,14 +3,14 @@
   padding-top: 50px;
 
   @include tablet-media {
-    background-image: url(../../images/tablet/fire-background.png);
+    background-image: url(../images/tablet/fire-background.png);
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 60px;
   }
 
   @include desktop-media {
-    background-image: url(../../images/desktop/fire.jpg);
+    background-image: url(../images/desktop/fire.jpg);
     padding-top: 70px;
   }
 
