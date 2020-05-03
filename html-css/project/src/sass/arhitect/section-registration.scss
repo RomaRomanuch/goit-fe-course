@@ -97,7 +97,12 @@
     &::placeholder {
       color: $white-color;
       font-family: 'Mon-700';
-      font-size: 21px;
+      font-size: 13px;
+
+      @include desktop-media{
+        font-size: 21px;
+      }
+      
     }
   }
 

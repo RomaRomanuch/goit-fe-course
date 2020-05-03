@@ -12,10 +12,10 @@
 
   &__hat {
     display: flex;
+    position: relative;
 
     @include tablet-media {
       flex-direction: column-reverse;
-      position: relative;
       margin-bottom: 20px;
     }
   }
@@ -23,10 +23,14 @@
   &__title {
     @include title;
     color: $white-color;
-    text-align: center;
+    text-align: left;
+    padding-right: 50px;
+    margin-bottom: 20px;
 
     @include tablet-media {
+      text-align: center;
       font-size: 26px;
+      padding-right: 0;
     }
     @include desktop-media {
       z-index: 1;
@@ -35,12 +39,10 @@
   }
 
   &__list {
-    position: relative;
-    bottom: 111px;
     box-shadow: 4px 6.928px 15.54px 5.46px rgba(29, 29, 27, 0.04);
+    position: relative;
 
     @include tablet-media {
-      position: static;
       margin-bottom: 65px;
     }
 
@@ -51,19 +53,19 @@
   }
 
   &__img {
-    margin-left: auto;
-    position: relative;
-    bottom: 85px;
-    left: 20px;
+    position: absolute;
+    top: -90px;
+    right: -20px;
 
     @include tablet-media {
       position: absolute;
-      left: 325px;
+      left: 323px;
+      top: -325px;
     }
 
     @include desktop-media {
-      left: -40px;
-      bottom: -80px;
+      left: -35px;
+      top: -230px;
     }
   }
 }

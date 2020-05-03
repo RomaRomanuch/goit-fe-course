@@ -1,7 +1,6 @@
 .teacher {
   background-color: $white-color;
-  margin-top: -66px;
-  
+
   @include tablet-media {
     margin-top: 0;
   }

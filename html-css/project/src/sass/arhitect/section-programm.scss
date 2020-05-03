@@ -1,6 +1,18 @@
 .programm {
   background-color: $black-color;
   padding-top: 50px;
+  position: relative;
+
+  @include desktop-media {
+    &::before {
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 100vw;
+      top: 150px;
+      background-color: $text-light-color;
+    }
+  }
 
   &__title {
     @include title;
@@ -73,10 +85,7 @@
       background-color: $text-light-color;
 
       @include desktop-media {
-        width: 2000%;
-        height: 2px;
-        left: -2000px;
-        top: -50px;
+        display: none;
       }
     }
 
