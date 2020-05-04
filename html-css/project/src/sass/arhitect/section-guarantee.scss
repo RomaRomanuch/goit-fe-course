@@ -22,15 +22,16 @@
 
   &__list {
     padding-top: 20px;
+    padding-left: 55px;
 
     @include tablet-media {
       background-color: $light-blue;
-      padding-left: 60px;
-      padding-right: 50px;
+      padding-left: 100px;
+      padding-right: 70px;
     }
 
     @include desktop-media {
-      padding-left: 110px;
+      padding-left: 170px;
       padding-right: 200px;
     }
   }
@@ -39,8 +40,24 @@
     font-family: 'Mon-400';
     font-size: $text-primary;
     display: inline-flex;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-weight: bold;
+    position: relative;
+
+    &:not(:last-child)::before {
+      display: inline-block;
+      content: '';
+      height: 100%;
+      border-left: 1px dashed $text-light-color;
+      position: absolute;
+      top: 15px;
+      left: -43px;
+
+      @include desktop-media {
+        border-left: 2px dashed $text-light-color;
+        left: -36px;
+      }
+    }
 
     @include tablet-media {
       font-size: $text-light-size;
@@ -49,18 +66,26 @@
     @include desktop-media {
       font-size: 18px;
     }
+  }
 
+  &__paragraph {
     &::before {
       content: '';
       display: block;
-      width: 30px;
-      height: 30px;
-      flex-shrink: 0;
-      margin-right: 20px;
+      position: absolute;
+      width: 15px;
+      height: 20px;
       background-image: url(../images/svg/noun_Campfire_2425646.svg);
       background-size: cover;
       fill: $contrast-color;
+      left: -50px;
+
+      @include desktop-media {
+        width: 30px;
+        height: 30px;
+      }
     }
+
   }
 
   &__span {
