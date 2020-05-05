@@ -147,6 +147,15 @@
   }
 
   &__image {
+    cursor: pointer;
+
+    &:hover {
+      border: 0px solid;
+      border-radius: 50%;
+      box-shadow: 0px 0px 0px 2px $contrast-color;
+      
+    }
+
     &:nth-of-type(n+4) {
       display: none;
 
@@ -166,6 +175,7 @@
   &__arrow {
     color: $contrast-color;
     font-size: 30px;
+    cursor: pointer;
 
     @include tablet-media {
       position: absolute;

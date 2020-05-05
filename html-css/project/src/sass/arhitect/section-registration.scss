@@ -88,19 +88,22 @@
     background-color: inherit;
     border: 1px $white-color solid;
     color: $white-color;
+    font-family: 'Mon-700';
+    font-size: 13px;
 
     @include desktop-media {
       height: 70px;
       margin-bottom: 30px;
+      font-size: 21px;
     }
 
     &::placeholder {
-      color: $white-color;
+      color: #cbbeb5;
       font-family: 'Mon-700';
-      font-size: 13px;
+      font-size: 12px;
 
       @include desktop-media{
-        font-size: 21px;
+        font-size: 20px;
       }
       
     }
@@ -115,6 +118,7 @@
     color: $white-color;
     font-family: 'Mon-700';
     font-size: $text-light-size;
+    cursor: pointer;
 
     @include desktop-media {
       font-size: 14px;
