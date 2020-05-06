@@ -23,6 +23,10 @@
     align-items: center;
     position: relative;
 
+    @include tablet-media {
+      margin-bottom: 0px;
+    }
+
     &::after {
       content: '';
       display: none;
@@ -37,15 +41,12 @@
         display: block;
       }
     }
-
-    @include tablet-media {
-      margin-right: 75px;
-      margin-bottom: 0px;
-    }
   }
 
   &__phonesvg {
     fill: $contrast-color;
+    margin-right: 6px;
+    margin-top: 3px;
   }
 
   &__tel {
@@ -55,8 +56,6 @@
 
   &__svg {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 20px;
 
     @include tablet-media {
@@ -68,18 +67,6 @@
 
   &__img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-
-    @include tablet-media {
-      margin-right: 75px;
-      margin-bottom: 0px;
-    }
-
-    @include desktop-media {
-      margin-right: 260px;
-    }
   }
 
   &__roofs {
@@ -96,17 +83,45 @@
 
   & a {
     display: block;
+    margin-right: auto;
+    margin-left: auto;
 
     &:first-of-type {
       order: 2;
+      width: 220px;
+
+      @include tablet-media {
+        margin-right: 75px;
+        margin-left: 0;
+      }
     }
 
     &:nth-of-type(2) {
       order: 3;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40px;
+
+      @include tablet-media {
+        margin-left: 0;
+      }
     }
 
     &:last-of-type {
       order: 1;
+      margin-bottom: 40px;
+      width: 79px;
+
+      @include tablet-media {
+        width: 126px;
+        margin-right: 75px;
+        margin-bottom: 0px;
+        margin-left: 0;
+      }
+
+      @include desktop-media {
+        margin-right: 260px;
+      }
     }
   }
 }
